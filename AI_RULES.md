@@ -1,6 +1,6 @@
 # Tech Stack
 
-- **Language:** Go (module `verdent`, requires Go 1.26+)
+- **Language:** Go (module `verdent`, requires Go 1.24+)
 - **Architecture:** Single-binary HTTP server; no framework — uses only `net/http` from stdlib
 - **Entry point:** `cmd/server/main.go` → calls `internal/app.Main()`
 - **All business logic lives in:** `internal/app/` (flat package, no sub-packages)
