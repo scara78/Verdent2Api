@@ -27,3 +27,4 @@ verdent_tokens.txt
 
 # Kiro (internal)
 .kiro/
+.dyad/
